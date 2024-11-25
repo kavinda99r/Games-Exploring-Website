@@ -1,4 +1,4 @@
-# GameBox-Website-Project ✅
+# GameBox - Games Exploring Website ✅
 
 GameBox is a simple and interactive website designed for exploring the latest games across various platforms such as PC, Xbox, and PlayStation. Users can browse games by category and view detailed information about selected games. This project is ideal for showcasing a collection of games in a clean and engaging interface.
 
