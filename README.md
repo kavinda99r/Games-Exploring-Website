@@ -2,7 +2,7 @@
 
 GameBox is a simple and interactive website designed for exploring the latest games across various platforms such as PC, Xbox, and PlayStation. Users can browse games by category and view detailed information about selected games. This project is ideal for showcasing a collection of games in a clean and engaging interface.
 
-<h3>Features</h3>
+<h3>Key Features</h3>
 
 - Explore by Category: Browse games based on platform: PC, Xbox, or PlayStation.
 - Game Details: View detailed information for each game, including description, genre, and release date.
