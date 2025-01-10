@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fontawesome/css/all.css" />
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <style>
+      .swiper-pagination-bullet {
+        background-color: rgb(165, 116, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <!--------------------------------------------------Header Section-------------------------------------------------->
+
+    <div id="header">
+      <div class="cont">
+        <nav>
+          <h3><span class="a">Game</span>Box</h3>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#trending">Trending PC Games</a></li>
+            <li><a href="#gallery">Playstation/XBOX Games</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <h1><span class="a">Game</span>Box</h1>
+          <p>Explore the best games what you love</p>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------About Section-------------------------------------------------->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="Images/About.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About</h1>
+
+            <p style="text-align: justify">
+              Welcome to GameBox, your ultimate destination for all things
+              gaming! Whether you are a passionate gamer, a casual player, or
+              just someone looking to explore the exciting world of video games,
+              we have got you covered.
+            </p>
+            <br />
+            <p style="text-align: justify">
+              Join us on this thrilling gaming journey and let GameBox be your
+              trusted companion in the ever-evolvong world of gaming. Get ready
+              to level up your gaming experience with us!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="trending">
+      <div class="container">
+        <div>
+          <h1 class="sub-title">Trending PC Games</h1>
+        </div>
+        <div class="trending-box">
+          <div class="swiper trending-content">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="box">
+                  <a href="Red Dead Redemption 2.html">
+                    <img src="Images\Game1.jpg" />
+                    <p>Red Dead Redemption 2</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <a href="Uncharted.html">
+                    <img src="Images\Game2.jpg" />
+                    <p>Uncharted 4</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <a href="Forza Horizon 5.html">
+                    <img src="Images\Game3.jpg" />
+                    <p>Forza Horizon 5</p>
+                  </a>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="box">
+                  <a href="Elden Ring.html">
+                    <img src="Images\Game4.jpg" />
+                    <p>Elden Ring</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------Services Section-------------------------------------------------->
+
+    <!--
+    
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fas fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type 
+                            specimen book.
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-print"></i>
+                        <h2>Print Design</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type 
+                            specimen book.
+                        </p>
+                    </div>
+                    <div>
+                        <i class="fas fa-film"></i>
+                        <h2>Video Editing</h2>
+                        <p>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                            when an unknown printer took a galley of type and scrambled it to make a type 
+                            specimen book.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+    -->
+
+    <!--------------------------------------------------Gallery Section-------------------------------------------------->
+
+    <div id="gallery">
+      <div class="container">
+        <h1 class="sub-title">Playstation/XBOX Games</h1>
+        <div class="row-gallery">
+          <div class="content-gallery">
+            <h2>Horizon Forbidden West</h2>
+            <img src="Images\Game slide 1.jpg" />
+            <p>
+              Platforms: PlayStation 5, PlayStation 4 <br />
+              Mode: Single-player video game
+            </p>
+            <span class="effect"></span>
+          </div>
+          <div class="content-gallery">
+            <h2>The Last of Us Part 1<br /></h2>
+            <img src="Images\Game slide 2.jpg" />
+            <p>
+              Platforms: PlayStation 5, Microsoft Windows <br />
+              Mode: Single-player video game
+            </p>
+            <span class="effect"></span>
+          </div>
+          <div class="content-gallery">
+            <h2>Call of Duty MW 2</h2>
+            <img src="Images\Game slide 3.jpg" />
+            <p>
+              Platforms: PlayStation 4, Xbox One, PlayStation 3, Xbox 360,
+              macOS, Microsoft Windows <br />
+              Mode: Multiplayer video game
+            </p>
+            <span class="effect"></span>
+          </div>
+        </div>
+        <div class="row-gallery">
+          <div class="content-gallery">
+            <h2>Fortnite</h2>
+            <img src="Images\Game slide 4.jpg" />
+            <p>
+              Platforms: Xbox Cloud Gaming, GeForce Now, Nintendo Switch <br />
+              Mode: Multiplayer video game
+            </p>
+            <span class="effect"></span>
+          </div>
+          <div class="content-gallery">
+            <h2>Hogwarts Legacy</h2>
+            <img src="Images\Game slide 5.jpg" />
+            <p>
+              Platforms: PlayStation 5, Nintendo Switch, PlayStation 4, Xbox
+              Series X and Series S, Xbox One, Microsoft Windows <br />
+              Mode: Single-player video game
+            </p>
+            <span class="effect"></span>
+          </div>
+          <div class="content-gallery">
+            <h2>Apex Legends</h2>
+            <img src="Images\Game slide 6.jpg" />
+            <p>
+              Platforms: PlayStation 4, Nintendo Switch, PlayStation 5 <br />
+              Mode: Multiplayer video game
+            </p>
+            <span class="effect"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--------------------------------------------------Contact Section-------------------------------------------------->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact</h1>
+            <p><i class="fas fa-envelope"></i>gamebox@gmail.com</p>
+            <p><i class="fas fa-phone-alt"></i>091-3465765</p>
+            <div></div>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="text"
+                name="Name"
+                placeholder="Your Email Address"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit" class="btn2" onclick="openPopup()">
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>© Copyright GameBox All Right Reserved</p>
+    </div>
+
+    <script src="swiper-bundle.min.js"></script>
+
+    <!--------------------------------------------------Java script Section-------------------------------------------------->
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-link");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+
+    <script>
+      var swiper = new Swiper(".trending-content", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        /*
+                autoplay: {
+                    delay:5000,
+                    disableOnInteraction: false,
+                },
+                */
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+          },
+          1068: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
