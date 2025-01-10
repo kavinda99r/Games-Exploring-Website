@@ -14,3 +14,9 @@ GameBox is a simple and interactive website designed for exploring the latest ga
 - HTML: For structuring the content.
 - CSS: For styling and layout (can include Flexbox/Grid for responsiveness).
 - JavaScript: For dynamic functionality and interactivity.
+
+<h2> </h2>
+
+<h3>Happy Coding! 🎉</h3>
+
+---
